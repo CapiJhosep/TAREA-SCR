@@ -7,7 +7,4 @@ mb = gb * 1024
 kb = gb * 1048576
 b = gb * 1073741824
 
-print( f"{gb}gb es igual a: {mb}mb; {kb}kb; {b}b")
-
-
-
+print( f"{gb}gb es igual a: {mb}mb; {kb}kb; {b}b" )

@@ -8,4 +8,4 @@ altura = float( input("Ingrese la altura del cilindro: "))
 área = 2 * π * ( radio + altura )
 volumen = π * (radio**2) * altura
 
-print( f"El Área del cilindro es {área: .2f} y el Volumen es {volumen: .2f}")
+print( f"El Área del cilindro es {área: .2f} y el Volumen es {volumen: .2f}" )

@@ -15,4 +15,4 @@ sY = sTramo * 3
 tY = tTramo / 1760
 Yardas = pY + sY + tY
 
-print( f"La longitud total recorrida en metros es de {metros: .2f}m y en yardas es de {Yardas: .2f}yd")
+print( f"La longitud total recorrida en metros es de {metros: .2f}m y en yardas es de {Yardas: .2f}yd" )

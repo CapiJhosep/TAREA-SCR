@@ -5,6 +5,6 @@ numero = input("Ingrese el número: ")
 lista = []
 if len(numero) == 4:
     lista.append(numero)
-    print(lista.splitlines())
+    print(lista)
 else:
     print("Error")

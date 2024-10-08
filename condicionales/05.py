@@ -3,8 +3,10 @@ os.system("cls")
 
 numero = input("Ingrese el número: ")
 lista = []
-if len(numero) == 4:
+
+if __name__ == "__main__" and len(numero) == 4:
     lista.append(numero)
-    print(lista)
-else:
-    print("Error")
+    num = numero
+    orden = "".join(sorted(num))
+    print(orden)
+else: print("Error")

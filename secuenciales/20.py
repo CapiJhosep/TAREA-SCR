@@ -12,7 +12,7 @@ monedas5 = cantidad // 5; cantidad %= 5
 monedas2 = cantidad // 2; cantidad %= 2
 monedas1 = cantidad
 
-print(f"Billetes de 200: {billetes200}" )
+print( f"Billetes de 200: {billetes200}" )
 print( f"Billetes de 100: {billetes100}" )
 print( f"Billetes de 50: {billetes50}" )
 print( f"Billetes de 20: {billetes20}" )

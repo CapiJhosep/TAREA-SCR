@@ -18,4 +18,7 @@ elif unidades <= 100:
     caramelos = 10
 else: caramelos = 15
 
-print( f"El importe es {compra: .2f}, el descuento es {descuento}, el total a pagar {(compra - descuento): .2f} y los caramelso obsequiiados son {caramelos}")
+print( f"El importe es {compra: .2f} soles" ) 
+print( f"El descuento es {descuento} soles" )
+print( f"El total a pagar {(compra - descuento): .2f} soles" ) 
+print( f"Los caramelos obsequiados son {caramelos}" )

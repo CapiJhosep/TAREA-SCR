@@ -1,7 +1,7 @@
 import os
 os.system("cls")
 
-gb = float( input("Ingrese la cantidad de Gigabytes: "))
+gb = float( input("Ingrese la cantidad de Gigabytes: ") )
 
 mb = gb * 1024
 kb = gb * 1048576

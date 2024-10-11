@@ -1,8 +1,8 @@
 import os
 os.system("cls")
 
-radio = float( input("Ingrese el radio del cilindro: "))
-altura = float( input("Ingrese la altura del cilindro: "))
+radio = float( input("Ingrese el radio del cilindro: ") )
+altura = float( input("Ingrese la altura del cilindro: ") )
 π = 3.1416
 
 aBase = π * (radio ** 2)

@@ -9,4 +9,7 @@ sueldoBruto = sueldo + comision
 descuento = sueldoBruto * 11/100
 sueldoNeto = sueldoBruto - descuento
 
-print( f"La Comisión es {comision: .2f}\nEl Sueldo Bruto es {sueldoBruto: .2f}\nEl Descuento es {descuento: .2f}\nEl Sueldo Neto es {sueldoNeto: .2f}")
+print( f"La Comisión es {comision: .2f} soles" )
+print( f"El Sueldo Bruto es {sueldoBruto: .2f} soles" )
+print( f"El Descuento es {descuento: .2f} soles" )
+print( f"El Sueldo Neto es {sueldoNeto: .2f} soles" )

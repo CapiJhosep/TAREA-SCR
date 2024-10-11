@@ -11,4 +11,7 @@ porJ = (dol1 * 100) / capital
 porR = (dol2 * 100) / capital
 porD = (dol3 * 100) / capital
 
-print( f"El Capital total es {capital: .2f} dólares y el porcentaje aportado de Juan es {porJ: .2f}%; de Rosa es {porR: .2f}% y de Daniel es {porD: .2f}%")
+print( f"El Capital total es {capital: .2f} dólares" )
+print( f"El porcentaje aportado de Juan es {porJ: .2f}%" )
+print( f"El porcentaje aportado de Rosa es {porR: .2f}%" )
+print( f"El porcentaje aportado de Daniel es {porD: .2f}%" )

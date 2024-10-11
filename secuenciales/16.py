@@ -10,4 +10,6 @@ sueldoBruto = sueldoBasico + bonificacion
 descuento = sueldoBruto * 10/100
 sueldoNeto = sueldoBruto - descuento
 
-print( f"El sueldo Básico es {sueldoBasico: .2f}, el sueldo Bruto es {sueldoBruto: .2f} y el sueldo Neto es {sueldoNeto: .2f}")
+print( f"El sueldo Básico es {sueldoBasico: .2f} soles" )
+print( f"El sueldo Bruto es {sueldoBruto: .2f} soles" )
+print( f"El sueldo Neto es {sueldoNeto: .2f} soles" )

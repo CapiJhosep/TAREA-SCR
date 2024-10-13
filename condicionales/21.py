@@ -25,6 +25,6 @@ elif sexo == 2:
 else:
     sexoStr = "Desconocido"
     
-print( f"El Estado Civil es: {estadoCivil}" )
-print( f"La Edad es: {edad}" )
-print( f"El Sexo es: {sexoStr}" )
+print( f"Su Estado Civil es: {estadoCivil}" )
+print( f"Su Edad es: {edad}" )
+print( f"Su Sexo es: {sexoStr}" )

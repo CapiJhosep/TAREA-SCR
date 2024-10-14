@@ -18,4 +18,4 @@ if 0 <= hora <= 24:
         periodo = "PM"
 else: print("Hora Inválida")
 
-print( f"Son las {hora1}{periodo}")
+print( f"Son las {hora1}{periodo}" )

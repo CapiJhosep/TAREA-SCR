@@ -13,10 +13,10 @@ if bisiesto:
     dias[1] = 29
 
 if 1 <= mes <= 12:
-    print(f"El mes es {meses[mes - 1]} y tiene {dias[mes - 1]} días.")
+    print( f"El mes es {meses[mes - 1]} y tiene {dias[mes - 1]} días." )
     if bisiesto:
-        print(f"El año {año} es bisiesto.")
+        print( f"El año {año} es bisiesto." )
     else:
-        print(f"El año {año} no es bisiesto.")
+        print( f"El año {año} no es bisiesto." )
 else:
     print("El número del mes es inválido")
